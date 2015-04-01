@@ -42,7 +42,7 @@ class ViewController: UIViewController
             if let result = brain.performOperation(operation) {
                 displayValue = result
             } else {
-                displayValue = 999 //consider displaying error here, instead of 999
+                displayValue = 999 //consider displaying error here, instead of 999 ?
             }
         }
     }
@@ -52,7 +52,7 @@ class ViewController: UIViewController
         if let result = brain.pushOperand(displayValue) {
             displayValue = result
         } else {
-            displayValue = 999 //consider displaying error here, instead of 999
+            displayValue = 999 //consider displaying error here, instead of 999 ?
         }
     }
     var displayValue: Double {
